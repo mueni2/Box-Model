@@ -1,0 +1,20 @@
+h1 {
+    color: cornflowerblue;
+}
+div {
+    border: 1px solid rgb(11, 9, 158);
+
+}
+section {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:50px 150px 75px 75px ;
+    grid-gap:10px 50px;
+    background-color: rgb(187, 184, 201);
+}
+#box4 {
+    background-color: darkorange;
+   grid-column-start:1 ;
+   grid-column-end: 3;
+}

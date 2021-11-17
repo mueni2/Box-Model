@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    flex-direction: column;
+    height: 80vh;
+}
+main {
+    display: grid;
+    grid-template-columns:20vw 20vw 20vw 20vw;
+    grid-template-rows:10vh 20vh 20vh ;
+    text-align: center;
+}
+
+header {
+    background-color: lightblue;
+    grid-column: 1/5;
+    color: white;
+}
+#menu {
+  background-color: mediumblue;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  color: white;
+ 
+}
+#ads {
+  background-color: mediumblue;
+  grid-column: 4/4;
+  grid-row: 2/4;
+  color: white;
+
+}
+
+#box3 {
+    background-color:indigo;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 20vh;
+
+}
+#numbers {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2px;
+
+}
+#numbers>div {
+    background-color: rgb(235, 144, 238);
+    border: 5px solid lightblue;
+}
+#rows {
+    grid-row: 3/4;
+    grid-column: 2/4;
+    background-color: lightsalmon;
+    border: 10px solid lightblue;
+    display: grid;
+    grid-template-columns:auto 20vw auto;
+    grid-template-rows: auto auto auto ;
+}
+#box6 {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    background-color: lime;
+}
+#box7 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: maroon;
+}
+#box8 {
+    grid-column: 2/3;
+    background-color: mediumorchid;
+}
+#box9 {
+   background-color: rgb(32, 112, 25);
+   grid-column: 3/4;
+   grid-row: 1/4;
+}
+

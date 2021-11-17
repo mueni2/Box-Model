@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    text-shadow:2px 2px red;
+}
+
+.test{
+    border: 1px solid hotpink;
+    width: 192px;
+    height: 192px;
+
+}
+.a,.b,.c,.d{
+   height: 48px;
+    width: 48px;
+    background-color: greenyellow;
+}
+.a{
+    margin-left: 144px;
+    height: 44px;
+    width: 48px;
+}
+.b{
+    margin-left: 96px;
+    border: 2px solid gray;
+}
+.c{
+    margin-left: 48px;
+}
+.d{
+    border: 2px solid gray;
+    height: 44px;
+    width: 44px;
+}
+.box2{
+    border: 1px solid whitesmoke;
+    height: 200px;
+    width: 200px;
+  
+    
+}
+.a1,.b1,.c1,.d1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+  
+    
+}
+.b1{
+   padding-left: 48px;
+    height: 48px;
+    width: 48px;
+    
+}
+.c1{
+   padding-left: 96px;
+    height: 48px;
+    width: 48px;
+}
+.d1{
+    padding-left: 144px;
+    height: 52px;
+    width: 48px;
+}
+.a1 > div { 
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+ 
+}
+.b1 > div {
+    height: 48px;
+    width: 48px;
+    background-color: yellow;
+    border: 2px solid gray;
+ 
+}
+.c1 > div {
+    height: 48px;
+    width: 48px;
+    background-color: yellow;
+    border: 2px solid gray;
+ 
+}
+.d1 > div {
+    height: 48px;
+    width: 48px;
+    background-color: yellow;
+    border: 2px solid gray;
+ 
+}

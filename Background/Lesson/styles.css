@@ -1,0 +1,41 @@
+h1{
+    color: red;
+}
+/* #p {
+    background-color: blueviolet;
+    height: 50vh;
+    width: 50vh;
+    margin: auto;
+    margin-top: 25vh;
+} */
+img {
+    background-size: contain;
+    background-position: center;
+    width: 30vmin;
+    height: 20vmin;
+    float: left;
+    clear:unset;
+    }
+    div {
+        float: left;
+        padding: 50px;
+    }
+   .d1 {
+       background-color: blueviolet;
+       height: 20vmin;
+   }
+   .d2 {
+       background-color: red;
+       display: none;
+   }
+   .d3 {
+       background-color: rgb(58, 226, 43);
+   }
+   .d4 {
+       background-color: rgb(35, 48, 9);
+       height: 10vmin;
+   }
+   .d5 {
+       height: 50px;
+       background-color: tomato;
+   }

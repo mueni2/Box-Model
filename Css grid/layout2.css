@@ -1,0 +1,82 @@
+main {
+    display: grid;
+    background-color: burlywood;
+    height: 80vh;
+   justify-content: center;
+    grid-template-rows: 100px 120px 120px 100px ;
+    grid-template-columns:120px 120px 120px 120px ;
+    color: blue;
+    font-size: 20px;
+ 
+}
+header {
+grid-column: 1/5;
+background-color: rgb(92, 83, 71);
+text-align: center;
+
+}
+#aside-3 {
+    background-color:cadetblue ;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    text-align: center;
+   
+}
+#aside-4 {
+    background-color: cadetblue;
+    grid-column: 5/4;
+    grid-row: 2/5;
+}
+.box-A {
+    background-color: chartreuse;
+    grid-row: 2/3;
+    grid-column: 2/4;
+
+}
+.item-1 {
+    display: grid;
+    background-color: crimson;
+    grid-column:3/4 ;
+    grid-row:2/3 ;
+    grid-template-columns:1fr 1fr ;
+    grid-gap:5px;
+    border: 1px solid blue;
+    text-align: center;
+}
+section>div {
+border: 1px solid blue;
+}
+.item-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+   /* grid-column: 2/4;
+   grid-row: 3/5; */
+   border: 1px solid gray;
+}
+.box-1 {
+    background-color: crimson;
+    grid-column: 1/4;
+    grid-row: 2/5;
+
+}
+.box-5 {
+    background-color: crimson;
+    grid-column: 4/3;
+    grid-row: 2/5;
+}
+.box-2 {
+    background-color:darkgoldenrod ;
+    grid-column: 4/2;
+    grid-row: 3/5;
+}
+.box-3 {
+    background-color: rgb(11, 14, 184);
+    grid-column: 2/3;
+    grid-row:3/2 ;
+}
+.box-4 {
+    background-color: rgb(185, 175, 149);
+    grid-column:3/2 ;
+    grid-row:2/1 ;
+}

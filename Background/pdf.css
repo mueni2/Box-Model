@@ -1,0 +1,65 @@
+main{
+    background-image: url(./coffee.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: blanchedalmond;  
+}
+header,footer{ 
+    display: block;
+    margin: auto;
+    background-color: rgba(212, 23, 23, 0.575);
+    border-radius: 5px;
+    width: 450px;
+    border-left: 10px solid black;
+    text-shadow: 1px 2px blue;
+    text-align:center;
+    
+    
+}
+img{
+    height: 80px;
+    width: 80px;  
+}
+div{
+    text-align: center;
+}
+.h{
+    height: 250px;
+    width: 460px;
+    border-radius: 30px;
+}
+span{
+    color:red;
+    font-weight: 200;
+}
+button:hover{
+    background-color: blue;
+}
+section:first-of-type>div{
+    display: inline-block;
+    border: 2px solid rgb(24, 76, 109);
+    width: 145px; 
+    height: 200px;
+    text-align:center ;
+    border-radius: 30px;
+    background-color:burlywood;
+    margin:2px;
+}    
+section:nth-of-type(2)>div{
+    display: inline-block;
+    border: 2px solid rgb(24, 76, 109);
+    width: 145px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: burlywood;
+    margin: 2px;
+}
+    
+  
+
+
+
+
+
+

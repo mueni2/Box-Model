@@ -1,0 +1,50 @@
+img{
+    height: 150px;
+    width: 150px;
+}
+h1:hover{
+    background-color: blue;
+
+}
+div{
+    display:inline-block;
+    width: 190px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: rgb(163, 116, 99);
+    overflow: scroll;
+    border-radius: 20px;
+}
+header,footer{
+    background-color: indianred;
+    border:2px solid  lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px ;
+    text-align: center;
+    border-left: 7px solid black;
+    width: 565px;
+    margin-left: 8px;
+    border-radius: 10px;  
+}
+.img1{
+    width: 565px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+span{
+    color: blue;
+}
+body{
+    margin-left: 300px;
+    background-image: url(./img/bc.jpeg);
+    background-attachment: fixed;
+
+}
+button{
+    border: 5px outset lightskyblue;
+}
+button:hover{
+    background-color: rgb(255, 0, 170);
+
+}

@@ -1,0 +1,32 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    height: 30vh;
+}
+main>article {
+    flex-grow: 1;
+}
+main>nav {
+    flex-basis: 100px;
+    order: 1;
+    background-color: lightcoral;
+
+}
+main>aside {
+    flex-basis: 100px;
+    order: -1;
+    background-color: blueviolet;
+}
+header,footer {
+height: 15vh;
+background-color: chocolate;
+}

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+section {
+    width: 100vmin;
+    height: 100vmin;
+    background-color: rgb(0, 217, 255);
+    margin: auto;
+    font-size: 0;
+}
+div {
+    display: inline-block;
+    font-size: 16px;
+    background-position: center;
+    background-size: cover;
+    vertical-align: top;
+}
+article {
+    height: 32vmin;
+}
+article:nth-of-type(2) {
+    margin: 2vmin 0 2vmin 34vmin;
+}
+#box1, #box4 {
+    width: 32vmin;
+    height: 66vmin;
+    background-image: url(./picture-beautiful-view-birds-600w-1836263689.webp);
+}
+#box2, #box5 {
+    width: 66vmin;
+    height: 32vmin;
+    background-color: blueviolet;
+    background-image: url(./img/pic5.jpg);
+}
+#box1 {
+    background-image: url(./c.jpeg);
+}
+#box2 {
+    margin-left: 2vmin ;
+}
+    
+#box2 {
+    background-image: url(./img/pic6.jpg);
+}
+#box3 {
+    height: 32vmin;
+    width: 32vmin;
+    margin-right: 2vmin;
+    background-image: url(./38a9b9ecccddd993ca4953c6701348e8.jpg);
+    background-image: linear-gradient(red,green);
+}
+#box4 {
+    background-image: url(./img/pic2.jpg);
+}
+#box5 {
+    background-image: url(./profile.jpeg);
+}

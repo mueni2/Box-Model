@@ -1,0 +1,35 @@
+ div {
+     display: inline-block;
+     margin: 15px;
+     width: 100px;
+     height: 100px;
+     font-size: 16px;
+     background-color: blue;
+     border:1px solid brown;
+     
+
+ }
+  section:first-of-type {
+      font-size: 0;
+  }
+   div:nth-of-type(3) {
+       background-color: chartreuse;
+       float: right;
+       
+   }
+   div:nth-of-type(1) {
+    background-color: rgb(255, 0, 85);
+    
+}
+ .img1 {
+     width: 300px;
+     float: left;
+ }
+ h1 {
+     clear:left;
+ }
+ .img2{
+    width: 300px;
+    float: right;
+}
+ 
